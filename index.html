@@ -9,12 +9,15 @@
       * {
         text-align: center;
         font-family: sans-serif;
+       
+        
       }
       h1 {
         color: Blue;
       }
       .location {
         color: orange;
+        margin-right: 20px;
       }
       h3 {
         color: Red;
@@ -25,24 +28,49 @@
       img {
         width: 150px;
       }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
     </style>
   </head>
   <body>
-    <h1>
-      Ali S
-    </h1>
-    <h2>About Ali</h2>
-    <h3 class="location">Location</h3>
-    <p class="location">Manchester</p>
-    <h3>Hobbies</h3>
-    <p>Gaming Valorant</p>
-    <img
-      src="https://wp.stanforddaily.com/wp-content/uploads/2020/08/image-2.png"
-    />
-    <h3>Age</h3>
-    <p>22</p>
-    <h3>Asperations</h3>
-    <p>To become a software engineer</p>
-    <h3 id="pc">Built his own PC</h3>
+    <div>
+      <h1>
+        Ali S
+      </h1>
+    </div>
+
+    <div>
+      <h2>About Ali</h2>
+    </div>
+    <div class="container">
+      <div>
+        <h3 class="location">Location</h3>
+        <p class="location">Manchester</p>
+      </div>
+      <div>
+        <h3>Age</h3>
+        <p>22</p>
+      </div>
+    </div>
+      <div>
+        <h3>Hobbies</h3>
+        <p>Gaming Valorant</p>
+        <a href="https://playvalorant.com/en-gb/">
+        <img
+          src="https://wp.stanforddaily.com/wp-content/uploads/2020/08/image-2.png">
+        </a>
+      </div>
+
+      <div>
+        <h3>Asperations</h3>
+        <p>To become a software engineer</p>
+      </div>
+      <div>
+        <h3 id="pc">Built his own PC</h3>
+      </div>
+    </div>
   </body>
 </html>
