@@ -11,14 +11,17 @@
         font-family: sans-serif;
       }
       h1 {
-        color: Blue;
+        color: #c6e0ff;
+      }
+      h2 {
+        color: #c6e0ff;
       }
       .location {
         color: orange;
         margin-right: 20px;
       }
       h3 {
-        color: Red;
+        color: #c6e0ff !important;
       }
       #pc {
         color: darkgreen;
@@ -26,10 +29,16 @@
       img {
         width: 150px;
       }
-      .container {
+      p {
+        color: orange;
+      }
+      .flex {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+      }
+      .container {
+        background-color: #315659;
       }
       button {
         background-color: red;
@@ -40,44 +49,51 @@
         background-color: white;
         color: red;
       }
+      header {
+        background-color: #2978a0;
+      }
     </style>
   </head>
   <body>
-    <div>
-      <h1>
-        Ali S
-      </h1>
-    </div>
+    <header>
+      <div>
+        <h1>
+          Ali S
+        </h1>
+      </div>
 
-    <div>
-      <h2>About Ali</h2>
-    </div>
+      <div>
+        <h2>About Ali</h2>
+      </div>
+    </header>
     <div class="container">
-      <div>
-        <h3 class="location">Location</h3>
-        <p class="location">Manchester</p>
+      <div class="flex">
+        <div>
+          <h3 class="location">Location</h3>
+          <p class="location">Manchester</p>
+        </div>
+        <div>
+          <h3>Age</h3>
+          <p>22</p>
+        </div>
       </div>
-      <div>
-        <h3>Age</h3>
-        <p>22</p>
-      </div>
-    </div>
-    <div class="hobbies">
-      <h3>Hobbies</h3>
-      <p>Gaming Valorant</p>
-      <img
-        src="https://wp.stanforddaily.com/wp-content/uploads/2020/08/image-2.png"
-      />
+      <div class="hobbies">
+        <h3>Hobbies</h3>
+        <p>Gaming Valorant</p>
+        <img
+          src="https://wp.stanforddaily.com/wp-content/uploads/2020/08/image-2.png"
+        />
 
-      <p>For more information on Valorant click the button below.</p>
-      <button href="https://playvalorant.com/en-gb/">Click Here</button>
+        <p>For more information on Valorant click the button below.</p>
+        <button href="https://playvalorant.com/en-gb/">Click Here</button>
 
-      <div>
-        <h3>Asperations</h3>
-        <p>To become a software engineer</p>
-      </div>
-      <div>
-        <h3 id="pc">Built his own PC</h3>
+        <div>
+          <h3>Asperations</h3>
+          <p>To become a software engineer.</p>
+        </div>
+        <div>
+          <h3 id="pc">Built his own PC</h3>
+        </div>
       </div>
     </div>
   </body>
