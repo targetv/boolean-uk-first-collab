@@ -1,0 +1,46 @@
+* {
+  text-align: center;
+  font-family: sans-serif;
+}
+h1 {
+  color: #c6e0ff;
+}
+h2 {
+  color: #c6e0ff;
+}
+.location {
+  color: orange;
+  margin-right: 20px;
+}
+h3 {
+  color: #c6e0ff !important;
+}
+#pc {
+  color: darkgreen;
+}
+img {
+  width: 150px;
+}
+p {
+  color: orange;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container {
+  background-color: #315659;
+}
+button {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: white;
+  color: red;
+}
+header {
+  background-color: #2978a0;
+}
